@@ -34,6 +34,7 @@ public class DAOProduto {
 			p.setCategoria(rs.getInt(2));
 			p.setNome(rs.getString(3));
 			p.setDescricao(rs.getString(4));
+			
 			lista.add(p);
 		}
 
